@@ -20,7 +20,7 @@
    
         *float (4 bytes) | %f
 
-        *char (1 byte) | %c
+        *char (1 byte) | %c  it can only contain one character.
    */
  
 
@@ -29,7 +29,15 @@
 
 int main() {
 
-    printf("Hello World!!");
+    float a = 5.65;
+    char c = 'A';
+
+
+    printf("%f \n",a);
+
+    printf("%.3f \n",a); //%f operatöründe f ten önceki sayıya dikkat
+
+    printf("%c", c);
 
     return 0;
 }
