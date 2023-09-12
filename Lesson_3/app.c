@@ -1,4 +1,3 @@
-                                        // Scanf
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -7,10 +6,11 @@ int main() {
 
     setlocale(LC_ALL, "Turkish");
 
-    int sayi;
-    printf("Lütfen Bir Sayı Giriniz"); scanf("%d", &sayi);
+    char karakterim;
 
-    printf("Girdiğiniz Sayı = %d", sayi);
+    printf("Bir Karakter Giriniz : ");
+    scanf("%c", &karakterim);
+    printf("Girdiğiniz Karakter = ");
 
     return 0;
 }
