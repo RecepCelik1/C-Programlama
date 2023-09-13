@@ -10,7 +10,7 @@ int main() {
 
     printf("Bir Karakter Giriniz : ");
     scanf("%c", &karakterim);
-    printf("Girdiğiniz Karakter = ");
+    printf("Girdiğiniz Karakter = %c", karakterim);
 
     return 0;
 }
