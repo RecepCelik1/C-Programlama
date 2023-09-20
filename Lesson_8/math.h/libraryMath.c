@@ -26,7 +26,7 @@ int main(){
     
     printf("%.3f \n",pow(4.5,2));
 
-    printf("%.3f \n",abs(6));
+    printf("%d \n",abs(6)); //abs yalnızca integer sayılar ile çalışabilir.
     
     return 0;
 }
