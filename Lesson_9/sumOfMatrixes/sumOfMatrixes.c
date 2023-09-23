@@ -16,24 +16,25 @@ int main() {
     
     while(i<3){     //for sum of matrixes
         
+        while(m<3){
         matrix3[i][m] = matrix1[i][m] + matrix2[i][m];
         m++;
-        if(m==3){
-            m=0;
-            i++;
         }
+        m=0;
+        i++;
         
     }
     
     i=0;
     m=0;
     while(i<3){     //for print to matrix3 
+       
+       while(m<3){
         printf("%d  ",matrix3[i][m]);
         m++;
-        if(m==3){
-            m=0;
-            i++;
-        }
+       }
+       m=0;
+       i++;
     }
     
     return 0;
