@@ -33,6 +33,7 @@ int main() {
         printf("%d  ",matrix3[i][m]);
         m++;
        }
+       printf("\n");
        m=0;
        i++;
     }
