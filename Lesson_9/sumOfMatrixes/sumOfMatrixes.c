@@ -3,6 +3,8 @@
 
 int main() {
     
+    //defining to variables statement
+
     int i = 0, m = 0;
     int matrix1[3][3] = { {1,2,3} , {4,5,6} , {7,8,9} };
     
@@ -11,7 +13,8 @@ int main() {
     int matrix3[3][3];
     
     
-    while(i<3){
+    
+    while(i<3){     //for sum of matrixes
         
         matrix3[i][m] = matrix1[i][m] + matrix2[i][m];
         m++;
@@ -24,7 +27,7 @@ int main() {
     
     i=0;
     m=0;
-    while(i<3){
+    while(i<3){     //for print to matrix3 
         printf("%d  ",matrix3[i][m]);
         m++;
         if(m==3){
