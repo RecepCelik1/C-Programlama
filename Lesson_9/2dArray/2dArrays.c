@@ -20,7 +20,7 @@ int main() {
 
     //örneğin : N x P eleman bulunduran bir matris tanımlarsak: int m[N][p];
 
-    int m[4][3];
+   // int m[4][3];
 
     //Aynen yukarıda olduğu gibi. Şimdi bu ifade ne demek hadi biraz daha açalım.
     
@@ -69,6 +69,10 @@ int main() {
         zorundayız.
    
    */
+
+        int array[2][2] = { {18,19} , {20,21} };
+    printf("%d\n",array[1][1]);
+    printf("%d, %d",array[0][0],array[0][1]);
 
     return 0;
 }
