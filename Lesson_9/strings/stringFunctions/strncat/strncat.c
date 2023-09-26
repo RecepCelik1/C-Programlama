@@ -11,7 +11,7 @@ int main(){
 
     strcat(hello, "My name is obi wan kenobi "); 
 
-    strncat(hello, helloThere, 11);
+    strncat(hello, helloThere, 11); //aynen bu şekilde kullanılır
 
     printf("%s",hello);
 
