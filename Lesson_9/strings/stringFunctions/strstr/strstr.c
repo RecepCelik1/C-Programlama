@@ -7,7 +7,7 @@
 int main(){
 
     char string[30] = "C dilini öğreniyoruz";
-    char *sub;
+    char *sub;    //bu pointer oluyor burayı anlamamış olabiliriz normal çünkü henüz pointerları bilmiyoruz ama ilerde öğreneceğiz.
     sub=strstr(string,"dil");
     printf("\nArama sonrası yeni string: %s",sub);
 
