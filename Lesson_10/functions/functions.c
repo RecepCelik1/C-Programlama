@@ -34,7 +34,7 @@ int main(){
     printf("Please enter a number : "); scanf("%d",&a);
     oddOrEven(a);
 
-    if(oddOrEven()==0){
+    if(oddOrEven(a)==0){
         printf("You were enter an even number!!");
     } else{
         printf("You were enter an odd number!!");
@@ -57,3 +57,6 @@ int oddOrEven(int number){
 
 //Yukarıda bir fonksiyonda nasıl parametre atanır, o parametre üzerinden fonksiyona data nasıl sokulur daha sonra o fonksiyonun çıktı
 // olarak verdiği data return ile nasıl dışarıya çıktı verilir çok güzel bir örneği mevcuttur efenim.
+
+//fonksiyon hangi türde data döndürecekse o türde olmalıdır. int, float, char veya değer döndürmeyecekse void.
+
