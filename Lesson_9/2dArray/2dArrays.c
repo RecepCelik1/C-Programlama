@@ -58,6 +58,7 @@ int main() {
     */
 
    /*
+   
         # m[2][1] 3. sütun 2. satırdaki elemanı belirtir.
 
         # Çok boyutlu diziyi tanımlarken sonsuz uzunlukta bir matris gibi tanımlayabiliriz.
