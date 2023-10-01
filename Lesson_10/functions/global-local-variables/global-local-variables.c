@@ -18,15 +18,17 @@ int main(){
 
         //  fonksiyonlar içerisinde de local alanlar oluşturabiliyoruz aynen bu şekilde görüldüğü gibi
 
-            int num;
-            printf("%d",num);  //==> bu print kendisine en yakın olan değişkeni, en locali yazdıracaktır
+            int num = 8;
+            printf("%d\n",num);  //==> bu print kendisine en yakın olan değişkeni, en locali yazdıracaktır
 
     }
 
 
     {
 
-        
+        int num1 = 5;
+        printf("%d\n",num1);   //==> pekiii böyle bir durumda ne olurdu? Yine aynı mantık yukarıdaki num1 void fonksiyonunun num1 i
+        ObiWanKenobi();        //   burayı bağlayan bişey yoktur daha sonra fonksiyonu çağırdığımız için ekrana print edicektir.
 
     }
 
