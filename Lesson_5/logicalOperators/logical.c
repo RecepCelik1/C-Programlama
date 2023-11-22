@@ -22,7 +22,7 @@ int main()
 
     int x = 15, y = 20;
 
-    printf("%d", x < y && x>0);   
+    printf("%d", !(x < y && x>0));   // parantezler içi 1 e eşittir
     
     return 0;
 }
